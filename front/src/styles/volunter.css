@@ -1,0 +1,89 @@
+.banner-volunter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("../img/volunterbaner.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 600px; */
+    color: white;
+    display: flex;
+    align-items: center;
+
+    padding: 50px;
+}
+
+.ventajas-banner {
+    background-color: #020f2a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.ventajas-banner>.text-banner {
+    width: 40%;
+    font-size: .8rem;
+}
+
+.ventajas-banner>.img-banner {
+    width: 50%;
+}
+
+.ventajas-banner>.img-banner>img {
+    width: 100%;
+}
+
+.banner-volunter>.parrafo {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.formulario {
+    color: white;
+    background-color: #020f2a;
+    padding: 30px 50px;
+}
+
+@media (max-width: 1000px) {
+    .ventajas-banner {
+        flex-direction: column;
+    }
+
+    .ventajas-banner>.text-banner {
+        width: 100%;
+        margin-bottom: 80px;
+        padding: 40px 10px;
+
+    }
+}
+
+@media (max-width: 750px) {
+    .ventajas-banner > .img-banner {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .ventajas-banner {
+        padding: 40px 10px;
+    }
+
+    .banner-volunter {
+        padding: 40px 10px;
+    }
+
+    .banner-volunter>.parrafo {
+        width: 100%;
+        margin: 0;
+    }
+}

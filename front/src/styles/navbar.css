@@ -1,0 +1,22 @@
+.navbar-wrapper {
+    /* --textColorInput: #FFFFFF;
+    --secondaryColor: #D5C46C;
+    --hoverBackground: #550065;
+    --backgroundColorNonHover: #550065; */
+    background-color: #550065;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-wrapper > a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar-wrapper > a:hover {
+    color: #D5C46C;
+}

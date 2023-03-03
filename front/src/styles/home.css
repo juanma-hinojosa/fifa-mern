@@ -1,0 +1,122 @@
+.home-section {
+    color: white;
+}
+
+.home-wrapper {
+    height: 500px;
+    width: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/16713894596219.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.home-content {
+    margin-left: 30px;
+    /* margin-bottom: 0px; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parragrafo-wrapper {
+    font-size: 1.2rem;
+}
+
+.home-content > .link-content {
+    margin-top: 20px;
+}
+
+.home-content > .link-content > .link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: #D5C46C;
+    text-transform: uppercase;
+    transition: .3s;
+    color: #550065;
+    /* color: #D5C46C; */
+}
+
+.home-content > .link-content > .link:hover {
+    background-color: #D5C46C;
+    color: black;
+}
+
+.link-wrapper {
+    /* height: 110px; */
+    padding: 35px 0;
+    background-image: url("../img/banner.jpg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-wrapper > .parragrafo-wrapper {
+    font-size: 1.1rem;
+}
+
+.link-wrapper > .link-content > .link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff004c;
+    border-radius: 30px;
+    transition: .3s;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.link-wrapper > .link-content > .link:hover {
+    padding: 12px 30px;    
+}
+
+.testimonios {
+    background-color: #020f2a;
+    padding: 60px 60px;
+
+}
+
+.testimonios > .title-wrapper {
+    margin-bottom: 60px;
+}
+
+.persona-wrapper {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+
+.persona-content {
+    padding: 10px 20px;
+    color: black;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.persona-content > .nombre-content {
+    font-family: 'Acme', sans-serif;
+    color: #871728;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.persona-content > .pais {
+    text-transform: uppercase;
+}
+
+.persona-content > .opinion:first-letter {
+    text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+    .link-wrapper {
+        flex-direction: column;
+    }
+}
